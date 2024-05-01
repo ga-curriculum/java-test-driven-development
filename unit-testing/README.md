@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![[tktk Module Name] - tktk Microlesson Name](./assets/unit-testing.png)
 
 **Learning objective:** By the end of this lesson, students will be able to understand unit tests and how to implement these principles. 
 

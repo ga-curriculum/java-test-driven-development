@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![[tktk Module Name]](./assets/java-tdd-header.png)
 
 ## About
 
@@ -6,9 +6,7 @@ Explore Test-Driven Development (TDD) and its integral role in Agile methodologi
 
 ## Prerequisites
 
-- tktk
-- tktk
-- tktk
+- None.
 
 ## Content
 

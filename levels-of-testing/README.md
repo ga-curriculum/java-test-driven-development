@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![[tktk Module Name] - tktk Microlesson Name](./assets/levels-of-testing.png)
 
 **Learning objective:** By the end of this lesson, students will be able to examine the Test-Driven Development frameework and how it is used in the application of unit, integration, and acceptance testing. 
 

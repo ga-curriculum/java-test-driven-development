@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![[tktk Module Name] - tktk Microlesson Name](./assets/what-is-tdd.png)
 
 **Learning objective:** By the end of this lesson, students will be able to examine the three-phase cycle of Test-Driven Development (TDD) and how TDD supports Agile development processes. 
 
