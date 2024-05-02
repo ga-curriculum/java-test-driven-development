@@ -64,7 +64,7 @@ To get started,
 
 1. Right-click the folder `src` in the App root and select New | Java Class.
 2. In the popup that opens, name the new package and `Calculator` class: `com.example.demo.Calculator`
-   ![](lecture/images/3-create-java-class.png)
+   ![](./assets/3-create-java-class.png)
 3. Open the `Calculator.java` in the `src/` directory and add the following contents.
     ```java
     // src/main/tdd/Calculator.java

@@ -14,7 +14,7 @@ Test-driven development follows a three-phase process:
   language idioms. If we break any tests during refactoring, we prioritize getting them back to green before exiting
   this phase.
 
-![](lecture/images/1-rgf.png)
+![](./assets/1-rgf.png)
 
 The three phases of this cycle are the essential building blocks of test-driven development.
 

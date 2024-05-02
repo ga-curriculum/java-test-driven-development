@@ -16,7 +16,7 @@ feedback. Let's look at them one by one.
 - **Acceptance testing**: Here you test the full system to verify if it works as per user expectations. It is often
   referred to as functional testing.
 
-![img.png](lecture/images/2-test-pyramid.png)
+![img.png](./assets/2-test-pyramid.png)
 
 The point image above is to convey that you should have many more unit tests than functional or integration tests.
 
