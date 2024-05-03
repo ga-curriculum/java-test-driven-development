@@ -51,26 +51,3 @@ use as per your requirements. Below is a list of some of the most common assert 
 | `void assertSame(object1, object2)`                   | The `assertSame()` method tests if two object references point to the same object           |
 | `void assertNotSame(object1, object2)`                | The `assertNotSame()` method tests if two object references do not point to the same object |
 | `void assertArrayEquals(expectedArray, resultArray)`  | The `assertArrayEquals()` method will test whether two arrays are equal to each other       |
-
-### Example problem and test driven approach
-
-We are going to take a look at a really simple example to introduce concept of TDD. We will write a very simple
-`Calculator` class.
-
-Following a TDD approach, let's say that we have a requirement for an `add` function, which will determine the sum of
-two numbers, and return the output. Let's write a failing test for this.
-
-To get started,
-
-1. Right-click the folder `src` in the App root and select New | Java Class.
-2. In the popup that opens, name the new package and `Calculator` class: `com.example.demo.Calculator`
-   ![](./assets/3-create-java-class.png)
-3. Open the `Calculator.java` in the `src/` directory and add the following contents.
-    ```java
-    // src/main/tdd/Calculator.java
-    
-    package com.example.demo;
-    
-    public class Calculator {
-    }
-    ```
