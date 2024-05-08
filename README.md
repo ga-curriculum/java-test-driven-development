@@ -12,10 +12,10 @@ Explore Test-Driven Development (TDD) and its integral role in Agile methodologi
 
 | Lesson | Time | Learning Objectives |
 | ------ |:----------:|:------ |
-| [What is Test-Driven Development (TDD)?](./what-is-tdd/README.md) | 30 min |  |
+| [What is Test-Driven Development (TDD)?](./what-is-tdd/README.md) | 25 min |  |
 | [Levels of Testing](./levels-of-testing/README.md) | 30 min |  |
 | [Unit Testing](./unit-testing/README.md) | 35 min |  |
-| **Total content**  | 95 min |  |
+| **Total content**  | 90 min |  |
 
 
 ## Internal resources
