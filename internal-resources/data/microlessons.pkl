@@ -1,0 +1,32 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+whatIsTdd = new Template.Microlesson {
+  friendlyName = "What is Test-Driven Development?"
+  dirName = "what-is-tdd"
+  type = "Content"
+  videoUrl = ""
+}
+
+levelsOfTesting = new Template.Microlesson {
+  friendlyName = "Levels of Testing"
+  dirName = "levels-of-testing"
+  type = "Content"
+  videoUrl = ""
+}
+
+unitTesting = new Template.Microlesson {
+  friendlyName = "Unit Testing"
+  dirName = "unit-testing"
+  type = "Content"
+  videoUrl = ""
+}
+
