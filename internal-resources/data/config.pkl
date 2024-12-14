@@ -21,18 +21,18 @@ courses {
     name = "jcd"
     microlessons {
       mls.setup
-      mls.whatIsTdd
       mls.levelsOfTesting
       mls.unitTesting
+      mls.testDrivenDevelopment
     }
   }
   new {
     name = "jsc"
     microlessons {
       mls.setup
-      mls.whatIsTdd
       mls.levelsOfTesting
       mls.unitTesting
+      mls.testDrivenDevelopment
     }
   }
   new {
@@ -40,9 +40,9 @@ courses {
     microlessons {
       // add microlessons here, in the order they should be delivered
       mls.setup
-      mls.whatIsTdd
       mls.levelsOfTesting
       mls.unitTesting
+      mls.testDrivenDevelopment
     }
   }
 }

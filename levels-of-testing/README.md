@@ -3,55 +3,61 @@
   <span class="subhead">Levels of Testing</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to examine the Test-Driven Development framework and how it is used in the application of unit, integration, and acceptance testing.
+**Learning objective:** By the end of this lesson, you will be able to describe the software testing process and its levels.
+
+## An introduction to software testing
+
+In a traditional waterfall model of the software development lifecycle (SDLC), **software testing phase** starts once the application coding (Development phase) is completed. Software testing is an activity performed to identify errors so that they can be removed before the software is deployed to the users. It ensures that the product meets specified requirements, in turn, ensuring the quality, reliability, and functionality of a software product. Testing is a critical activity that reduces the risk of costly post-deployment failures.
+
 
 ## Levels of testing
 
-As you start practicing TDD, you will write different levels of tests. Your application should be composed of tests in each of the following levels. Each of these levels focuses on a different aspect of code and provides different feedback. Let's look at them one by one.
+![Software development process flow showing the levels of testing and which requirement level validates](./assets/LevelsOfTesting.PNG)
 
-- **Unit testing** : Here you est individual software components to verify if the individual unit does the right thing in isolation.
+### Level 1: Unit testing
+Unit tests are conducted immediately after the coding is completed. Every individual functional component of code (methods, in case of Java) is tested against the coding requirements. Unit tests identifies and fixes bugs in the code within each method, thus ensuring the method as a whole is working as required. Unit testing is usually performed by developers.
 
-- **Integration testing**: Here you test multiple units together to verify if they work correctly as a unit.
+### Level 2: Integration testing
+Integration tests are conducted after successful completion of unit tests. Once unit tests confirm that individual components are working as expected, the next logical step is to test the interaction between those components (Interfaces). Integration tests identifies and fixes bugs in the component interfaces (method calls those fail). It is usually carried out by anybody who has a high level view of how different components of the application interact with each other to realise the rquired application behaviours. It could be developers, technical designers or software architects.
 
-- **Acceptance testing**: Here you test the full system to verify if it works as per user expectations. It is often referred to as functional testing.
 
-![img.png](./assets/2-test-pyramid.png)
+### Level 3: System testing
+System tests are conducted after successful completion of integration tests. While unit tests and integration tests are **white box** tests (code and its execution flow is visible to the tester), system tests are performed as **black box** tests (Testers interact with the user interface to perform the test. Code is invisible to them). System tests are performed from an end-user perspective, to identify bugs in the application functionality. System tests are carried out by professional software testers and/or technical analysts.
 
-The point image above is to convey that you should have many more unit tests than functional or integration tests.
 
-## Benefits of unit testing
+### Level 4: Acceptance testing
+Acceptance tests are conducted after successful completion of system tests. They are performed by clients or the actual end-users to ensure what they asked in the first place, in other words, their business needs are satisfied by the software. 
 
-As discussed previously, unit testing is no longer a post-development exercise. It is as equally important as writing production code and must be done up front. It enhances team productivity by providing solid foundations. Let's look at the benefits unit testing offers in detail.
+## Software Testing Lifecycle (STLC)
+Just like software development life cycle has its phases, each level of testing that we saw just now also has its phases.
 
-### Determines specifications
+### Requirements gathering phase
+The activities in this phase are:
+- Getting a clear understanding of every stated requirement.
+- Seeking clarifications, if necessary
+- Documenting the requirements in a **Requirements Traceability matrix** (RTM) which will be used in each of the following phases to ensure that no requirement remains unaddressed.
 
-Before we start the journey of coding a component we must try to determine what the component must do? Try to build a test case of the possible inputs and the possible outputs. The act of building test cases at the start helps to clarify the expected behavior of the component.
+### Test planning and preparation phase
+The activities in this phase are:
+- Creating test cases and documenting them in a **Test Case Document** (TCD)
+- Ensuring each test case is mapping to a requirement in the RTM. Eliminating test cases that dont. 
+- Ensuring that each requirement is covered 100 percent by the presence of test cases all possible scenarios. If gaps are identified, adding test cases to cover them.
 
-If we are unable to come up with a test, it means that the specifications are not explicit enough and require more thinking.
+### Test execution phase
+Once there is an official confirmation that code development is complete (for unit tests) and the tests in the prior levels have satisfactorily passed (for integration, system and acceptance testing levels):
+- Execute the test cases
+- For the test case that pass, mark them so in the TCD.
+- For test cases that fail, mark them so in the TCD and log a defect.
+- Once the developer reports that a defect has been fixed:
+  - execute the failed test cases to make sure they are passing (Retest).
+  - execute the already passed test cases to ensure that they are still passing and the defect fix didn't break any working-requirement (Regression test).
 
-### Provides early error detection
-
-Unit tests are proof of working code. They are executed in every build and can detect failures at the first instance.
-
-Unit tests can detect not only coding bugs but flaws in product specifications as well. A unit test demonstrates
-progress; thus, as soon as a component is complete, it can be demo-ed to the stakeholders to find gaps, if any. The
-sooner a bug is uncovered, the cheaper it is to fix.
-
-### Supports maintenance
-
-Product specifications evolve over time. These changes lead to development cycles. In each of these cycles, the team has
-to understand how the existing code works before team members can make any changes. Unit tests help in understanding the
-intended behavior without being bogged down by the actual code. A well-written unit test suite serves as a productivity
-boost for the team.
-
-### Improves design
-
-Unit tests are the first client of the code being tested. They uncover various issues that a client can face while
-interfacing with the code being tested. Unit tests make us think in terms of the expected input and the expected output.
-For internal components (service, utilities, etc.), this can help in classifying responsibility boundaries. It helps in
-improving product specifications by exposing gaps in the interface design.
-
-### Product documentation
-
-Unit tests describe how a piece of code works—that is, the expected output for a given input. They always describe the
-latest state of a specification, as they are kept in sync with the code changes.
+### Test closure phase
+The activities in this phase are:
+- Preparing a test report that contains:
+  - Test coverage (number of tests cases out of total tests cases executed)
+  - If coverage is less than 100 percent, then reason for the same.
+  - Defects found and fixed.
+  - Unfixed defects, if any.
+  - Reasons for not fixing the defects and their risk.
+- Forwarding the test report to the person/team responsible for the next phase, indicating the end of testing.

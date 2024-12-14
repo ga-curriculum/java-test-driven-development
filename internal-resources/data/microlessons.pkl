@@ -9,13 +9,6 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-whatIsTdd = new Template.Microlesson {
-  friendlyName = "What is Test-Driven Development?"
-  dirName = "what-is-tdd"
-  type = "Content"
-  videoUrl = ""
-}
-
 levelsOfTesting = new Template.Microlesson {
   friendlyName = "Levels of Testing"
   dirName = "levels-of-testing"
@@ -26,6 +19,13 @@ levelsOfTesting = new Template.Microlesson {
 unitTesting = new Template.Microlesson {
   friendlyName = "Unit Testing"
   dirName = "unit-testing"
+  type = "Content"
+  videoUrl = ""
+}
+
+testDrivenDevelopment = new Template.Microlesson {
+  friendlyName = "Test-Driven Development"
+  dirName = "test-driven-development"
   type = "Content"
   videoUrl = ""
 }
