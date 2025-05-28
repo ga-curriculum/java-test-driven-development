@@ -30,16 +30,6 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "What is Test-Driven Development?",
-          "dirName": "what-is-tdd",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
           "friendlyName": "Levels of Testing",
           "dirName": "levels-of-testing",
           "type": "Content",
@@ -52,6 +42,16 @@
         {
           "friendlyName": "Unit Testing",
           "dirName": "unit-testing",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "What is Test-Driven Development?",
+          "dirName": "what-is-test-driven-development",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -99,16 +99,6 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "What is Test-Driven Development?",
-          "dirName": "what-is-tdd",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
           "friendlyName": "Levels of Testing",
           "dirName": "levels-of-testing",
           "type": "Content",
@@ -121,6 +111,16 @@
         {
           "friendlyName": "Unit Testing",
           "dirName": "unit-testing",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "What is Test-Driven Development?",
+          "dirName": "what-is-test-driven-development",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -168,16 +168,6 @@
           "estimatedDeliveryTimeInMinutes": 0
         },
         {
-          "friendlyName": "What is Test-Driven Development?",
-          "dirName": "what-is-tdd",
-          "type": "Content",
-          "skill": "",
-          "learningObjective": "",
-          "videoUrl": "",
-          "videoLengthInMinutes": 0,
-          "estimatedDeliveryTimeInMinutes": 0
-        },
-        {
           "friendlyName": "Levels of Testing",
           "dirName": "levels-of-testing",
           "type": "Content",
@@ -190,6 +180,16 @@
         {
           "friendlyName": "Unit Testing",
           "dirName": "unit-testing",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "What is Test-Driven Development?",
+          "dirName": "what-is-test-driven-development",
           "type": "Content",
           "skill": "",
           "learningObjective": "",

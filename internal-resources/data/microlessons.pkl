@@ -23,9 +23,9 @@ unitTesting = new Template.Microlesson {
   videoUrl = ""
 }
 
-testDrivenDevelopment = new Template.Microlesson {
-  friendlyName = "Test-Driven Development"
-  dirName = "test-driven-development"
+whatIsTestDrivenDevelopment = new Template.Microlesson {
+  friendlyName = "What is Test-Driven Development?"
+  dirName = "what-is-test-driven-development"
   type = "Content"
   videoUrl = ""
 }

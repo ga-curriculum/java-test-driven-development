@@ -1,6 +1,6 @@
 <h1>
   <span class="headline">Java Test-Driven Development</span>
-  <span class="subhead">Test-Driven Development</span>
+  <span class="subhead">What is Test-Driven Development?</span>
 </h1>
 
 **Learning objective:** By the end of this lesson, you'll be able to:

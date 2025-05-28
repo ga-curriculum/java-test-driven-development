@@ -23,7 +23,7 @@ courses {
       mls.setup
       mls.levelsOfTesting
       mls.unitTesting
-      mls.testDrivenDevelopment
+      mls.whatIsTestDrivenDevelopment
     }
   }
   new {
@@ -32,7 +32,7 @@ courses {
       mls.setup
       mls.levelsOfTesting
       mls.unitTesting
-      mls.testDrivenDevelopment
+      mls.whatIsTestDrivenDevelopment
     }
   }
   new {
@@ -42,7 +42,7 @@ courses {
       mls.setup
       mls.levelsOfTesting
       mls.unitTesting
-      mls.testDrivenDevelopment
+      mls.whatIsTestDrivenDevelopment
     }
   }
 }
